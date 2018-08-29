@@ -22,7 +22,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
-
+// This is a comment
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
